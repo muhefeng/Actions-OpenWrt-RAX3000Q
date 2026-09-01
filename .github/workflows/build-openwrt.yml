@@ -22,6 +22,10 @@ on:
   schedule:
     - cron: 0 8 * * 2
 
+permissions:
+  contents: write
+  actions: write
+
 env:
   REPO_URL: https://github.com/kkstone/immortalwrt-ipq50xx
   REPO_BRANCH: openwrt-21.02
